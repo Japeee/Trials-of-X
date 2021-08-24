@@ -35,3 +35,12 @@ sysinfo.txt
 # Builds
 *.apk
 *.unitypackage
+Packages/packages-lock.json
+Assets/Cainos/Pixel Art Top Down - Basic/Texture/main_character_place_holder.png.meta
+Assets/Cainos/Pixel Art Top Down - Basic/Texture/main_character_place_holder.png
+Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Materials/main_character_place_holder.mat.meta
+Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Materials/main_character_place_holder.mat
+Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Materials.meta
+Assets/Cainos/Pixel Art Top Down - Basic/Materials/main_character_place_holder.mat.meta
+Assets/Cainos/Pixel Art Top Down - Basic/Materials/main_character_place_holder.mat
+Assets/Cainos/Pixel Art Top Down - Basic/Materials.meta
