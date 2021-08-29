@@ -4,5 +4,11 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Trials.unity
+    guid: 4c0f364a73e7bb84d85c69f107702579
+  - enabled: 1
+    path: Assets/Scenes/BlackForest.unity
+    guid: 6c23a1bcbcfc25d49883d14e68456fe4
   m_configObjects: {}
