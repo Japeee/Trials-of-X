@@ -13,7 +13,7 @@ TagManager:
   - UI
   - 
   - 
-  - 
+  - Player
   - 
   - 
   - 
@@ -49,4 +49,13 @@ TagManager:
     locked: 0
   - name: Layer 3
     uniqueID: 4189426099
+    locked: 0
+  - name: Player
+    uniqueID: 4176050859
+    locked: 0
+  - name: Lamp
+    uniqueID: 3520636819
+    locked: 0
+  - name: Tree
+    uniqueID: 3071673253
     locked: 0
