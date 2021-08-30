@@ -9,8 +9,7 @@ public class PortalManager : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        Object.DontDestroyOnLoad(player);
-        player.transform.position = new Vector2(0, 0);
-        SceneManager.LoadScene("BlackForest");
+
+        player.transform.position = new Vector2(92.71999f, -4.5f);
     }
 }
