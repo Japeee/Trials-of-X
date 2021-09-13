@@ -9468,7 +9468,7 @@ GameObject:
   - component: {fileID: 521793769}
   - component: {fileID: 521793771}
   m_Layer: 0
-  m_Name: Portti1
+  m_Name: SceneTransition
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9526,6 +9526,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1acb498eed786134081ae37c17b95021, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sceneToLoad: Castle
+  player: {fileID: 2136984849}
+  playerSpawnPos: {fileID: 0}
 --- !u!1001 &527267250
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -77533,6 +77536,7 @@ GameObject:
   - component: {fileID: 2136984852}
   - component: {fileID: 2136984855}
   - component: {fileID: 2136984854}
+  - component: {fileID: 2136984856}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -77682,6 +77686,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.4, y: 0.4}
   m_EdgeRadius: 0
+--- !u!114 &2136984856
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2136984849}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6439df2db7507f24e9f475f156f044dd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectID: 
 --- !u!1001 &2137106343
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -78889,7 +78906,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7947911506616031246}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 50.509995, y: 24.399998, z: -712.55414}
+  m_LocalPosition: {x: 50.49, y: 24.44, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 7947911506509032948}
