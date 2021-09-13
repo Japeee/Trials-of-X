@@ -41,14 +41,17 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: Player
-    uniqueID: 4176050859
+  - name: CellFloor
+    uniqueID: 3032307449
     locked: 0
   - name: Floor
     uniqueID: 3304571901
     locked: 0
   - name: Walls
     uniqueID: 3043655115
+    locked: 0
+  - name: Player
+    uniqueID: 4176050859
     locked: 0
   - name: Objectives
     uniqueID: 2778479381
