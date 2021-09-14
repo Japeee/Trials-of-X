@@ -3,14 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class PortalManager : MonoBehaviour
+public class TeleportManager : MonoBehaviour
 {
     public GameObject player, teleport;
-
-    private void Start()
-    {
-        player = GameObject.Find("Player");
-    }
 
     public void OnTriggerEnter2D(Collider2D other)
     {
@@ -22,7 +17,7 @@ public class PortalManager : MonoBehaviour
 
     IEnumerator Teleport()
     {
-        yield return new WaitForSeconds(0.5f);
-        player.transform.position = new Vector2(portal.transform.position.x, portal.transform.position.y);
+        yield return new WaitForSeconds(0.5f);     
+        player.transform.position = new Vector2(teleport.transform.position.x, teleport.transform.position.y);
     }
 }

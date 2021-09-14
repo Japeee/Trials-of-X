@@ -13,7 +13,7 @@ public class CameraManager : MonoBehaviour
 
     private Camera thisCamera;
     private float halfHeight, halfWidth;
-    
+
 
     public void Start()
     {
@@ -21,7 +21,7 @@ public class CameraManager : MonoBehaviour
         maxBounds = boundBoxOne.bounds.max;
 
         thisCamera = GetComponent<Camera>();
-        
+
         halfHeight = thisCamera.orthographicSize; // Orthographic Size = 1x unit unityssä eli yksi neliö, tässä tapauksessa.                                             
         halfWidth = halfHeight * Screen.width / Screen.height; // koko on 5 ja se kerrotaan näytön leveys jaettuna korkeudella.
     }
