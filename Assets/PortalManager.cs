@@ -12,13 +12,12 @@ public class PortalManager : MonoBehaviour
     {
         if (other.gameObject.tag == "Player")
         {
-            StartCoroutine(Teleport());
+            StartCoroutine(Portal());
         }      
     }
 
-    IEnumerator Teleport()
+    IEnumerator Portal()
     {
-
         yield return new WaitForSeconds(0.5f);
         player.transform.position = new Vector2(portal.transform.position.x, portal.transform.position.y);
     }
