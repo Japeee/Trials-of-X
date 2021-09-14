@@ -14,7 +14,7 @@ TagManager:
   - 
   - 
   - Player
-  - 
+  - Projectile
   - 
   - 
   - 
@@ -73,4 +73,7 @@ TagManager:
     locked: 0
   - name: Tree
     uniqueID: 3071673253
+    locked: 0
+  - name: Bullet
+    uniqueID: 851250247
     locked: 0
