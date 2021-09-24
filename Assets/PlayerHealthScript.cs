@@ -9,7 +9,6 @@ public class PlayerHealthScript : MonoBehaviour
     public int currentHealth;
 
     public HealthBarScript healthBar;
-    public Gradient gradient;
 
 
 
