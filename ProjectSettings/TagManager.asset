@@ -3,7 +3,8 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Staff
   layers:
   - Default
   - TransparentFX
@@ -15,7 +16,7 @@ TagManager:
   - 
   - Player
   - Projectile
-  - 
+  - Staff
   - 
   - 
   - 
@@ -50,11 +51,14 @@ TagManager:
   - name: Walls
     uniqueID: 3043655115
     locked: 0
-  - name: Player
-    uniqueID: 4176050859
-    locked: 0
   - name: Objectives
     uniqueID: 2778479381
+    locked: 0
+  - name: Staff
+    uniqueID: 3060422783
+    locked: 0
+  - name: Player
+    uniqueID: 4176050859
     locked: 0
   - name: Layer 1
     uniqueID: 2425651459
