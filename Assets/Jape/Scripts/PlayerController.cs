@@ -3,47 +3,26 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerController : MonoBehaviour
-
-{ public float speed;
-
-private Animator animator;
-
-private void Start()
 {
-    animator = GetComponent<Animator>();
-}
+    public float moveSpeed = 5f;
+    public Rigidbody2D rb;
+    public Animator animator;
 
+    Vector2 movement;
 
-private void Update()
-{
-    Vector2 dir = Vector2.zero;
-    if (Input.GetKey(KeyCode.A))
+    private void Update()
     {
-        dir.x = -1;
-        animator.SetInteger("Direction", 3);
-    }
-    else if (Input.GetKey(KeyCode.D))
-    {
-        dir.x = 1;
-        animator.SetInteger("Direction", 2);
+        movement.x = Input.GetAxisRaw("Horizontal");
+        movement.y = Input.GetAxisRaw("Vertical");
+
+        animator.SetFloat("Horizontal", movement.x);
+        animator.SetFloat("Vertical", movement.y);
+        animator.SetFloat("Speed", movement.sqrMagnitude);
     }
 
-    if (Input.GetKey(KeyCode.W))
+    private void FixedUpdate()
     {
-        dir.y = 1;
-        animator.SetInteger("Direction", 1);
+        rb.MovePosition(rb.position + movement * moveSpeed * Time.fixedDeltaTime);
     }
-    else if (Input.GetKey(KeyCode.S))
-    {
-        dir.y = -1;
-        animator.SetInteger("Direction", 0);
-    }
-
-    dir.Normalize();
-    animator.SetBool("IsMoving", dir.magnitude > 0);
-
-    GetComponent<Rigidbody2D>().velocity = speed * dir;
-}
-
 }
 
