@@ -24,7 +24,7 @@ public class PlayerHealthScript : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            TakeDamage(20);
+            TakeDamage(15);
         }
     }
 
