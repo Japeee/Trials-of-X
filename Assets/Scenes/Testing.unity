@@ -515,9 +515,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   staff: {fileID: 247421693}
   crystal: {fileID: 1736396933}
-  speed: 2
+  moveSpeed: 2
   offset: {fileID: 1736396934}
-  col: {fileID: 0}
+  rb: {fileID: 247421695}
 --- !u!114 &247421700
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -531,7 +531,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 1341481274}
-  lerpSpeed: 100
+  lerpSpeed: 1000
 --- !u!114 &247421701
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1559,7 +1559,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 1341481274}
-  lerpSpeed: 100
+  lerpSpeed: 10000
 --- !u!1 &672168422
 GameObject:
   m_ObjectHideFlags: 0
@@ -2828,7 +2828,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.0967742, y: 1.1935484}
+    oldSize: {x: 0.53968257, y: 0.5873016}
     newSize: {x: 0.53968257, y: 0.5873016}
     adaptiveTilingThreshold: 0.5
     drawMode: 1
@@ -2956,7 +2956,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d8fa7ff11ca53642bba679c070d31d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 1
+  moveSpeed: 2
   rb: {fileID: 1341481272}
   animator: {fileID: 1341481275}
 --- !u!1 &1355793333
@@ -3361,7 +3361,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1736396933}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.223, y: 0.056, z: 0}
+  m_LocalPosition: {x: -0.041, y: 0.098, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 247421697}
@@ -3433,7 +3433,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 1736396934}
-  lerpSpeed: 100
+  lerpSpeed: 1000
 --- !u!1 &1813497762
 GameObject:
   m_ObjectHideFlags: 0

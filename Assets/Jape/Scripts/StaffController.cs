@@ -6,10 +6,12 @@ public class StaffController : MonoBehaviour
 {
     public GameObject staff;
     public GameObject crystal;
-    public float speed;
+    public float moveSpeed;
     public Transform offset;
-    public EdgeCollider2D col;
     private Animator animator;
+    public Rigidbody2D rb;
+
+    Vector2 movement;
 
     private void Start()
     {
@@ -18,38 +20,27 @@ public class StaffController : MonoBehaviour
         animator = GetComponent<Animator>();
     }
 
-
     private void Update()
     {
-        Vector2 dir = Vector2.zero;
-        if (Input.GetKey(KeyCode.A))
-        {
-            dir.x = -1;
-            animator.SetInteger("Direction", 3);
-            crystal.transform.position = staff.transform.position;
-        }
-        else if (Input.GetKey(KeyCode.D))
-        {
-            dir.x = 1;
-            animator.SetInteger("Direction", 2);
-            crystal.transform.position = new Vector3(staff.transform.position.x + 0.55f, staff.transform.position.y - 0.03f, staff.transform.position.z);
-        }
+        movement.x = Input.GetAxisRaw("Horizontal");
+        movement.y = Input.GetAxisRaw("Vertical");
 
-        if (Input.GetKey(KeyCode.W))
-        {
-            dir.y = 1;
-            animator.SetInteger("Direction", 1);
-            crystal.transform.position = staff.transform.position;
-        }
-        else if (Input.GetKey(KeyCode.S))
-        {
-            dir.y = -1;
-            animator.SetInteger("Direction", 0);
-            crystal.transform.position = staff.transform.position;
-        }
+        animator.SetFloat("Horizontal", movement.x);
+        animator.SetFloat("Vertical", movement.y);
+        animator.SetFloat("Speed", movement.sqrMagnitude);
 
-        dir.Normalize();
-        //animator.SetBool("IsMoving", dir.magnitude > 0);
+        if(movement.x > 0.99f)
+        {
+            crystal.transform.position = new Vector3(staff.transform.position.x + 0.59f, staff.transform.position.y - 0.03f, staff.transform.position.z);
+        }
+        else
+        {
+            crystal.transform.position = staff.transform.position;
+        }
+    }
+    private void FixedUpdate()
+    {
+        rb.MovePosition(rb.position + movement * moveSpeed * Time.fixedDeltaTime);
     }
 
 }
