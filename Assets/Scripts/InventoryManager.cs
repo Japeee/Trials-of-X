@@ -9,11 +9,9 @@ public class InventoryManager : MonoBehaviour
     private void Start()
     {
         isOpened = false;
-        bag = GameObject.Find("ItemParent");
-        //GameObject.Find("ItemParent").SetActive(false);
     }
 
-    private void OnButtonClick()
+    public void OpenBag()
     {
         if (isOpened == false)
         {
@@ -26,4 +24,6 @@ public class InventoryManager : MonoBehaviour
             isOpened = false;
         }
     }
+
+
 }
