@@ -1560,6 +1560,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {fileID: 1341481274}
   lerpSpeed: 10000
+  offset: {x: 0, y: 0, z: 0}
+  targetPos: {x: 0, y: 0, z: 0}
 --- !u!1 &672168422
 GameObject:
   m_ObjectHideFlags: 0
