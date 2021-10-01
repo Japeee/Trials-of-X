@@ -11,5 +11,8 @@ public class PickUp : MonoBehaviour
         
     }
 
-    
+    private void Update()
+    {
+
+    }
 }
