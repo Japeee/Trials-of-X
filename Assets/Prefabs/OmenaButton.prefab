@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 2004127225525184574}
   - component: {fileID: 7015306412674016555}
   - component: {fileID: 7352035329606104587}
+  - component: {fileID: 8038356284318576218}
   m_Layer: 5
   m_Name: OmenaButton
   m_TagString: Untagged
@@ -119,3 +120,16 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &8038356284318576218
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2005758697664269144}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b28af8dd3a42d914990a6c40483a6f15, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 2272290752980052599, guid: 8d565f52134c49547b321c690c1d38e2, type: 3}

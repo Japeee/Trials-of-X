@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 4678508538326386863}
   - component: {fileID: 1236863647034830151}
   - component: {fileID: 2767887380742582394}
+  - component: {fileID: -654638308918130627}
   m_Layer: 5
   m_Name: OlutButton
   m_TagString: Untagged
@@ -119,3 +120,16 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &-654638308918130627
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8698665261125308689}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b28af8dd3a42d914990a6c40483a6f15, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 9205072216378482798, guid: 3c8ea4fe5a7c00748ab2220a95f3d48f, type: 3}
