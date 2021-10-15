@@ -6,9 +6,6 @@ public class CameraManager : MonoBehaviour
 {
     public Transform target;
     public float smoothSpeed = 0.125f; // arvo 0-1 välillä, mitä isompi arvo on sitä nopeammin kamera lukottautuu targettiin
-    public BoxCollider2D boundBoxOne; // Unityyn on luotu tyhjä gameobject jolle on annettu boxcollider ja siitä on tehty Trigger
-    private Vector2 minBounds;
-    private Vector2 maxBounds;
     public Vector3 offset, desiredPosition, smoothedPosition;
 
     private Camera thisCamera;
@@ -17,9 +14,6 @@ public class CameraManager : MonoBehaviour
 
     public void Start()
     {
-        minBounds = boundBoxOne.bounds.min;
-        maxBounds = boundBoxOne.bounds.max;
-
         thisCamera = GetComponent<Camera>();
 
         halfHeight = thisCamera.orthographicSize; // Orthographic Size = 1x unit unityssä eli yksi neliö, tässä tapauksessa.                                             
@@ -33,8 +27,7 @@ public class CameraManager : MonoBehaviour
         transform.position = target.position + offset;
         transform.LookAt(target);
 
-        float clampedX = Mathf.Clamp(transform.position.x, minBounds.x + halfWidth, maxBounds.x - halfWidth);
-        float clampedY = Mathf.Clamp(transform.position.y, minBounds.y + halfHeight, maxBounds.y - halfHeight);
-        transform.position = new Vector3(clampedX, clampedY, -10f);
+     
+        transform.position = new Vector3(transform.position.x, transform.position.y, -10f);
     }
 }
