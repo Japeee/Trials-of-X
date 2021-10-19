@@ -10,4 +10,10 @@ public class DialogueTrigger : MonoBehaviour
     {
         FindObjectOfType<DialogueManager>().StartDialogue(dialogue);
     }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        TriggerDialogue();
+    }
+
 }
