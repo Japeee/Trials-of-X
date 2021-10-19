@@ -10,6 +10,9 @@ public class StaffController : MonoBehaviour
     public Transform offset;
     private Animator animator;
     public Rigidbody2D rb;
+    public bool updateDir = true;
+    public enum CardinalDirections { NORTH, SOUTH, EAST, WEST };
+    public CardinalDirections playerFacing;
 
     Vector2 movement;
 
@@ -24,9 +27,10 @@ public class StaffController : MonoBehaviour
     {
         movement.x = Input.GetAxisRaw("Horizontal");
         movement.y = Input.GetAxisRaw("Vertical");
-
-        animator.SetFloat("Horizontal", movement.x);
-        animator.SetFloat("Vertical", movement.y);
+        updatePlayerDir(movement);
+        movement = movement.normalized;
+        //animator.SetFloat("Horizontal", movement.x);
+        //animator.SetFloat("Vertical", movement.y);
         animator.SetFloat("Speed", movement.sqrMagnitude);
 
         if (Input.GetMouseButtonDown(1))
@@ -34,7 +38,7 @@ public class StaffController : MonoBehaviour
             animator.SetTrigger("Attack");
         }
 
-        if(movement.x > 0.99f)
+        if(playerFacing == CardinalDirections.EAST)
         {
             crystal.transform.position = new Vector3(staff.transform.position.x + 0.59f, staff.transform.position.y - 0.03f, staff.transform.position.z);
         }
@@ -42,6 +46,29 @@ public class StaffController : MonoBehaviour
         {
             crystal.transform.position = staff.transform.position;
         }
+    }
+    void updatePlayerDir(Vector2 incomingMove)
+    {
+        //EAST WEST
+        if (updateDir)
+        {
+            //West
+            if (incomingMove.x == -1f && incomingMove.y > -0.2 && incomingMove.y < 0.2f)
+                playerFacing = CardinalDirections.WEST;
+            else if (incomingMove.x == 1f && incomingMove.y > -0.2 && incomingMove.y < 0.2f)
+                playerFacing = CardinalDirections.EAST;
+        }
+        //North South
+        if (updateDir)
+        {
+            //North
+            if (incomingMove.x > -0.2f && incomingMove.x < 0.2f && incomingMove.y == 1f)
+                playerFacing = CardinalDirections.NORTH;
+            else if (incomingMove.x > -0.2f && incomingMove.x < 0.2f && incomingMove.y == -1f)
+                playerFacing = CardinalDirections.SOUTH;
+        }
+
+        animator.SetInteger("Direction", (int)playerFacing);
     }
     private void FixedUpdate()
     {

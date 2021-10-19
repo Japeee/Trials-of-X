@@ -5,6 +5,7 @@ using UnityEngine;
 public class Shooting : MonoBehaviour
 {
     public Transform firePoint;
+    public Transform rotation;
     public GameObject bulletPrefab;
     Vector2 mousePos;
     public Camera cam;
@@ -14,6 +15,7 @@ public class Shooting : MonoBehaviour
 
     void Update()
     {
+        
         mousePos = cam.ScreenToWorldPoint(Input.mousePosition);
         Vector2 lookDir = mousePos - rbfp.position;
         float angle = Mathf.Atan2(lookDir.y, lookDir.x) * Mathf.Rad2Deg - 90f;
