@@ -106,15 +106,15 @@ NavMeshSettings:
   m_BuildSettings:
     serializedVersion: 2
     agentTypeID: 0
-    agentRadius: 0.5
-    agentHeight: 2
-    agentSlope: 45
-    agentClimb: 0.4
-    ledgeDropHeight: 0
-    maxJumpAcrossDistance: 0
+    agentRadius: 54.05
+    agentHeight: 8.55
+    agentSlope: 8.2
+    agentClimb: 4.4
+    ledgeDropHeight: 4.93
+    maxJumpAcrossDistance: 6.21
     minRegionArea: 2
     manualCellSize: 0
-    cellSize: 0.16666667
+    cellSize: 18.016666
     manualTileSize: 0
     tileSize: 256
     accuratePlacement: 0
@@ -592,7 +592,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!50 &247421695
 Rigidbody2D:
   serializedVersion: 4
@@ -1662,7 +1662,7 @@ GameObject:
   m_Component:
   - component: {fileID: 641710592}
   - component: {fileID: 641710591}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: DungeonTilemap
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3356,7 +3356,7 @@ BoxCollider2D:
     oldSize: {x: 0.53968257, y: 0.5873016}
     newSize: {x: 0.53968257, y: 0.5873016}
     adaptiveTilingThreshold: 0.5
-    drawMode: 1
+    drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
@@ -3428,7 +3428,7 @@ SpriteRenderer:
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
-  m_DrawMode: 1
+  m_DrawMode: 0
   m_Size: {x: 0.53968257, y: 0.5873016}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
@@ -3484,6 +3484,8 @@ MonoBehaviour:
   moveSpeed: 5
   rb: {fileID: 1341481272}
   animator: {fileID: 1341481275}
+  safeToUpdateDir: 1
+  playerFacing: 0
 --- !u!1 &1355793333
 GameObject:
   m_ObjectHideFlags: 0
@@ -3896,7 +3898,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1645540016}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.350572, y: -3.2174864, z: -788.46875}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -22653,7 +22655,7 @@ GameObject:
   - component: {fileID: 2111359294}
   - component: {fileID: 2111359296}
   - component: {fileID: 2111359295}
-  m_Layer: 20
+  m_Layer: 11
   m_Name: WallsLayer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
