@@ -1,0 +1,610 @@
+fileFormatVersion: 2
+guid: aba64af295822f746be07ae60b3d6d07
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1048517019402472019
+    second: Castle_tilemap_version2_0
+  - first:
+      213: 4188697179540918925
+    second: Castle_tilemap_version2_1
+  - first:
+      213: 3658458828301382482
+    second: Castle_tilemap_version2_2
+  - first:
+      213: -6532438373066760163
+    second: Castle_tilemap_version2_3
+  - first:
+      213: 6857224930743274195
+    second: Castle_tilemap_version2_4
+  - first:
+      213: -1845346367239144332
+    second: Castle_tilemap_version2_5
+  - first:
+      213: 470740013644218599
+    second: Castle_tilemap_version2_6
+  - first:
+      213: -4910673062673279647
+    second: Castle_tilemap_version2_7
+  - first:
+      213: -596292004905387387
+    second: Castle_tilemap_version2_8
+  - first:
+      213: -7228470974876783237
+    second: Castle_tilemap_version2_9
+  - first:
+      213: 6742512129470735314
+    second: Castle_tilemap_version2_10
+  - first:
+      213: -7616640575228717387
+    second: Castle_tilemap_version2_11
+  - first:
+      213: 3719533778262294723
+    second: Castle_tilemap_version2_12
+  - first:
+      213: -1743144305769458362
+    second: Castle_tilemap_version2_13
+  - first:
+      213: 2832808885086881420
+    second: Castle_tilemap_version2_14
+  - first:
+      213: 3191745224096159014
+    second: Castle_tilemap_version2_15
+  - first:
+      213: 3101551886700552096
+    second: Castle_tilemap_version2_16
+  - first:
+      213: -3123649954866174659
+    second: Castle_tilemap_version2_17
+  - first:
+      213: 3755338754630806599
+    second: Castle_tilemap_version2_18
+  - first:
+      213: 2666200328950317102
+    second: Castle_tilemap_version2_19
+  - first:
+      213: 1649507898537339755
+    second: Castle_tilemap_version2_20
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 63.9
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Castle_tilemap_version2_0
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 69
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35a8f628ca41d8e00800000000000000
+      internalID: 1048517019402472019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Castle_tilemap_version2_1
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 69
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d82973264ed312a30800000000000000
+      internalID: 4188697179540918925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Castle_tilemap_version2_2
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 69
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 253bb46cbe475c230800000000000000
+      internalID: 3658458828301382482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Castle_tilemap_version2_3
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 69
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d10a938f8ed1855a0800000000000000
+      internalID: -6532438373066760163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Castle_tilemap_version2_4
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 69
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dac7ed4eb1c92f50800000000000000
+      internalID: 6857224930743274195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Castle_tilemap_version2_5
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 2
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47c372d81430466e0800000000000000
+      internalID: -1845346367239144332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Castle_tilemap_version2_6
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 2
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e083de5c87688600800000000000000
+      internalID: 470740013644218599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Castle_tilemap_version2_7
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 146
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 165974b0ed8c9dbb0800000000000000
+      internalID: -4910673062673279647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Castle_tilemap_version2_8
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 147
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58a7531b49b89b7f0800000000000000
+      internalID: -596292004905387387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Castle_tilemap_version2_9
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 146
+        width: 9
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7d6f3942ff4fab90800000000000000
+      internalID: -7228470974876783237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Castle_tilemap_version2_10
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 137
+        width: 64
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d3add2fe07329d50800000000000000
+      internalID: 6742512129470735314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Castle_tilemap_version2_11
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 210
+        width: 64
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b65aa360c14c4690800000000000000
+      internalID: -7616640575228717387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Castle_tilemap_version2_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 146
+        width: 9
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c0046fa3407e9330800000000000000
+      internalID: 3719533778262294723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Castle_tilemap_version2_13
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 200
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 645dd5e4d7b1fc7e0800000000000000
+      internalID: -1743144305769458362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Castle_tilemap_version2_14
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 200
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c868c201ca8205720800000000000000
+      internalID: 2832808885086881420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Castle_tilemap_version2_15
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 147
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6251dc7ee5b5b4c20800000000000000
+      internalID: 3191745224096159014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Castle_tilemap_version2_16
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 147
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0af9a3b120dea0b20800000000000000
+      internalID: 3101551886700552096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Castle_tilemap_version2_17
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 203
+        width: 46
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3569857ae096a4d0800000000000000
+      internalID: -3123649954866174659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Castle_tilemap_version2_18
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 157
+        width: 9
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74ce60163b4ad1430800000000000000
+      internalID: 3755338754630806599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Castle_tilemap_version2_19
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 157
+        width: 9
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e200d13b21f300520800000000000000
+      internalID: 2666200328950317102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Castle_tilemap_version2_20
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 148
+        width: 46
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6be48ab1ba34e610800000000000000
+      internalID: 1649507898537339755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
