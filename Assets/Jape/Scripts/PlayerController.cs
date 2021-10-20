@@ -8,6 +8,8 @@ public class PlayerController : MonoBehaviour
 	public Rigidbody2D rb;
 	public Animator animator;
 	public bool updateDir = true;
+	public bool canAttack = true;
+	public bool isAttacking = false;
 	public enum CardinalDirections { NORTH, SOUTH, EAST, WEST };
 	public CardinalDirections playerFacing;
 
@@ -21,14 +23,17 @@ public class PlayerController : MonoBehaviour
 		movement.y = Input.GetAxisRaw("Vertical");
 		updatePlayerDir(movement);
 		movement = movement.normalized;
-		//animator.SetFloat("Horizontal", movement.x);
-		//animator.SetFloat("Vertical", movement.y);
 		animator.SetFloat("Speed", movement.sqrMagnitude);
-
-		if (Input.GetMouseButtonDown(1))
+		if (Input.GetMouseButtonDown(1) && canAttack == true && isAttacking == false)
 		{
 			animator.SetTrigger("Attack");
+			isAttacking = true;
+			//movement.x = 0f;
+			//movement.y = 0f;
+			canAttack = false;
+			StartCoroutine(waitToAttack());
 		}
+		
 	}
 	void updatePlayerDir(Vector2 incomingMove)
 	{
@@ -55,7 +60,18 @@ public class PlayerController : MonoBehaviour
 	}
 		private void FixedUpdate()
 		{
+			if(isAttacking == false)
+        {
 			rb.MovePosition(rb.position + movement * moveSpeed * Time.fixedDeltaTime);
 		}
+			
+		}
+	IEnumerator waitToAttack()
+    {
+
+		yield return new WaitForSeconds(0.5f);
+		canAttack = true;
+		isAttacking = false;
+    }
 }
 

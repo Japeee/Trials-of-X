@@ -125,78 +125,15 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: melee_left_staff_0
-      rect:
-        serializedVersion: 2
-        x: 27
-        y: 49
-        width: 10
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f8424dd59f397bf80800000000000000
-      internalID: -8090835506317482865
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: melee_left_staff_1
-      rect:
-        serializedVersion: 2
-        x: 92
-        y: 38
-        width: 15
-        height: 19
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 18efebdb62f4408a0800000000000000
-      internalID: -6339855347620053375
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: melee_left_staff_2
-      rect:
-        serializedVersion: 2
-        x: 170
-        y: 25
-        width: 11
-        height: 27
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 073694b391bd95020800000000000000
-      internalID: 2331135183556273008
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: melee_left_staff_3
       rect:
         serializedVersion: 2
-        x: 33
+        x: 27
         y: 28
-        width: 6
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 12
+        height: 35
+      alignment: 9
+      pivot: {x: 0.87037057, y: 0.06558037}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -212,12 +149,12 @@ TextureImporter:
       name: melee_left_staff_4
       rect:
         serializedVersion: 2
-        x: 99
+        x: 92
         y: 28
-        width: 24
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 31
+        height: 29
+      alignment: 9
+      pivot: {x: 0.90747046, y: 0.064428195}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -233,12 +170,12 @@ TextureImporter:
       name: melee_left_staff_5
       rect:
         serializedVersion: 2
-        x: 182
+        x: 170
         y: 24
-        width: 22
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 34
+        height: 28
+      alignment: 9
+      pivot: {x: 0.96471494, y: 0.14751442}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -254,12 +191,12 @@ TextureImporter:
       name: melee_left_staff_6
       rect:
         serializedVersion: 2
-        x: 267
-        y: 13
-        width: 20
-        height: 19
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 258
+        y: 8
+        width: 29
+        height: 24
+      alignment: 9
+      pivot: {x: 0.9436856, y: 0.925154}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -267,27 +204,6 @@ TextureImporter:
       bones: []
       spriteID: 93e55dadad6dbe840800000000000000
       internalID: 5254529625720446521
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: melee_left_staff_7
-      rect:
-        serializedVersion: 2
-        x: 258
-        y: 9
-        width: 10
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1cc3c5b1e783c6c70800000000000000
-      internalID: 8965603072463879361
       vertices: []
       indices: 
       edges: []

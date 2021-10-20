@@ -1,31 +1,19 @@
 fileFormatVersion: 2
-guid: f31faaa3971399b4f9852d403a10578a
+guid: eb5e03891eefaa0418043fc86bb2dee8
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3732560738097355341
-    second: melee_down_staff__0
+      213: -3817186335289406715
+    second: walk_down_staff_2
   - first:
-      213: -8165267275224862157
-    second: melee_down_staff__1
+      213: 1702859892284478679
+    second: walk_down_staff_5
   - first:
-      213: 7618781947074477847
-    second: melee_down_staff__2
+      213: 8678713269500363544
+    second: walk_down_staff_6
   - first:
-      213: 1181416733198353465
-    second: melee_down_staff__3
-  - first:
-      213: 5075600651234218397
-    second: melee_down_staff__4
-  - first:
-      213: -8512751143707071290
-    second: melee_down_staff__5
-  - first:
-      213: -885174172566934872
-    second: melee_down_staff__6
-  - first:
-      213: -6688340754401262059
-    second: melee_down_staff__7
+      213: -5620778166658614360
+    second: walk_down_staff_7
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -125,85 +113,85 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: melee_down_staff__1
+      name: walk_down_staff_2
       rect:
         serializedVersion: 2
-        x: 21
-        y: 24
-        width: 22
-        height: 35
-      alignment: 9
-      pivot: {x: 0.7020203, y: 0.2460313}
+        x: 40
+        y: 3
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 332b914bca42fae80800000000000000
-      internalID: -8165267275224862157
+      spriteID: 50b899b9041a60bc0800000000000000
+      internalID: -3817186335289406715
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: melee_down_staff__3
+      name: walk_down_staff_5
       rect:
         serializedVersion: 2
-        x: 91
-        y: 22
-        width: 34
-        height: 22
-      alignment: 9
-      pivot: {x: 0.7132786, y: 0.2660812}
+        x: 120
+        y: 6
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9348df9624c356010800000000000000
-      internalID: 1181416733198353465
+      spriteID: 7d450e5cc06c1a710800000000000000
+      internalID: 1702859892284478679
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: melee_down_staff__4
+      name: walk_down_staff_6
       rect:
         serializedVersion: 2
-        x: 185
+        x: 0
+        y: 4
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 813c900acbbf07870800000000000000
+      internalID: 8678713269500363544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk_down_staff_7
+      rect:
+        serializedVersion: 2
+        x: 80
         y: 2
-        width: 23
-        height: 35
-      alignment: 9
-      pivot: {x: 0.72374827, y: 0.78738433}
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d919e8e86e7207640800000000000000
-      internalID: 5075600651234218397
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: melee_down_staff__5
-      rect:
-        serializedVersion: 2
-        x: 281
-        y: 12
-        width: 33
-        height: 25
-      alignment: 9
-      pivot: {x: 0.1881122, y: 0.7900579}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6cc2a02ffe1acd980800000000000000
-      internalID: -8512751143707071290
+      spriteID: 8abba0f990cfef1b0800000000000000
+      internalID: -5620778166658614360
       vertices: []
       indices: 
       edges: []

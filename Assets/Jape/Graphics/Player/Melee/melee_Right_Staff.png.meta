@@ -125,78 +125,15 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: melee_Right_Staff_0
-      rect:
-        serializedVersion: 2
-        x: 45
-        y: 49
-        width: 10
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1e067631501694270800000000000000
-      internalID: 8235220068051935457
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: melee_Right_Staff_1
-      rect:
-        serializedVersion: 2
-        x: 135
-        y: 38
-        width: 15
-        height: 19
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6f841953ccdf5c370800000000000000
-      internalID: 8342352938287581430
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: melee_Right_Staff_2
-      rect:
-        serializedVersion: 2
-        x: 221
-        y: 25
-        width: 11
-        height: 27
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0be5ebbb68b95e350800000000000000
-      internalID: 6045409077792497328
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: melee_Right_Staff_3
       rect:
         serializedVersion: 2
         x: 43
         y: 28
-        width: 6
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 12
+        height: 35
+      alignment: 9
+      pivot: {x: 0.12498093, y: 0.06288262}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -214,10 +151,10 @@ TextureImporter:
         serializedVersion: 2
         x: 119
         y: 28
-        width: 24
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 31
+        height: 29
+      alignment: 9
+      pivot: {x: 0.061570197, y: 0.046854347}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -235,10 +172,10 @@ TextureImporter:
         serializedVersion: 2
         x: 198
         y: 24
-        width: 22
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 34
+        height: 28
+      alignment: 9
+      pivot: {x: 0.060690936, y: 0.16517544}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -255,11 +192,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 273
-        y: 13
-        width: 20
-        height: 19
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        y: 9
+        width: 29
+        height: 23
+      alignment: 9
+      pivot: {x: 0.0771074, y: 0.88382643}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -267,27 +204,6 @@ TextureImporter:
       bones: []
       spriteID: b990de734c2ce26f0800000000000000
       internalID: -707413943442929253
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: melee_Right_Staff_7
-      rect:
-        serializedVersion: 2
-        x: 292
-        y: 9
-        width: 10
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 310540a5c6e519000800000000000000
-      internalID: 40917691082756115
       vertices: []
       indices: 
       edges: []

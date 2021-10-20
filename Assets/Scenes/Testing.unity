@@ -586,6 +586,7 @@ GameObject:
   - component: {fileID: 247421699}
   - component: {fileID: 247421700}
   - component: {fileID: 247421701}
+  - component: {fileID: 247421694}
   m_Layer: 10
   m_Name: Staff
   m_TagString: Staff
@@ -593,6 +594,22 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!70 &247421694
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 247421693}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 6200000, guid: ae8ed2478307b6745a9b24ce938d6cab, type: 2}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.13724141, y: 0.14296651}
+  m_Size: {x: 0.17841093, y: 0.17563488}
+  m_Direction: 1
 --- !u!50 &247421695
 Rigidbody2D:
   serializedVersion: 4
@@ -718,6 +735,7 @@ MonoBehaviour:
   offset: {fileID: 1736396934}
   rb: {fileID: 247421695}
   updateDir: 1
+  canAttack: 1
   playerFacing: 0
 --- !u!114 &247421700
 MonoBehaviour:
@@ -3518,6 +3536,8 @@ MonoBehaviour:
   rb: {fileID: 1341481272}
   animator: {fileID: 1341481275}
   updateDir: 1
+  canAttack: 1
+  isAttacking: 0
   playerFacing: 0
 --- !u!1 &1355793333
 GameObject:

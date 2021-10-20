@@ -11,6 +11,7 @@ public class StaffController : MonoBehaviour
     private Animator animator;
     public Rigidbody2D rb;
     public bool updateDir = true;
+    public bool canAttack = true;
     public enum CardinalDirections { NORTH, SOUTH, EAST, WEST };
     public CardinalDirections playerFacing;
 
@@ -29,13 +30,13 @@ public class StaffController : MonoBehaviour
         movement.y = Input.GetAxisRaw("Vertical");
         updatePlayerDir(movement);
         movement = movement.normalized;
-        //animator.SetFloat("Horizontal", movement.x);
-        //animator.SetFloat("Vertical", movement.y);
         animator.SetFloat("Speed", movement.sqrMagnitude);
 
-        if (Input.GetMouseButtonDown(1))
+        if (Input.GetMouseButtonDown(1) && canAttack == true)
         {
             animator.SetTrigger("Attack");
+            canAttack = false;
+            StartCoroutine(waitToAttack());
         }
 
         if(playerFacing == CardinalDirections.EAST)
@@ -73,6 +74,12 @@ public class StaffController : MonoBehaviour
     private void FixedUpdate()
     {
         rb.MovePosition(rb.position + movement * moveSpeed * Time.fixedDeltaTime);
+    }
+    IEnumerator waitToAttack()
+    {
+
+        yield return new WaitForSeconds(0.5f);
+        canAttack = true;
     }
 
 }

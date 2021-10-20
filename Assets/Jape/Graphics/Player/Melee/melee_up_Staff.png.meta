@@ -125,57 +125,15 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: melee_up_Staff_0
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 50
-        width: 13
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f795259a528c064a0800000000000000
-      internalID: -6602056989645055617
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: melee_up_Staff_1
-      rect:
-        serializedVersion: 2
-        x: 188
-        y: 55
-        width: 25
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 298006167c4408bb0800000000000000
-      internalID: -4935869568475199342
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: melee_up_Staff_2
       rect:
         serializedVersion: 2
-        x: 189
+        x: 188
         y: 32
-        width: 12
-        height: 24
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 25
+        height: 35
+      alignment: 9
+      pivot: {x: 0.46415344, y: 0.027019283}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -193,10 +151,10 @@ TextureImporter:
         serializedVersion: 2
         x: 40
         y: 25
-        width: 19
-        height: 19
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 27
+        height: 27
+      alignment: 9
+      pivot: {x: 0.05161568, y: 0.04570961}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -209,36 +167,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: melee_up_Staff_4
-      rect:
-        serializedVersion: 2
-        x: 57
-        y: 42
-        width: 10
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 702d892ba580d9c60800000000000000
-      internalID: 7826420913076228615
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: melee_up_Staff_5
       rect:
         serializedVersion: 2
         x: 120
         y: 30
-        width: 14
-        height: 25
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 21
+        height: 34
+      alignment: 9
+      pivot: {x: 0.093472436, y: 0.040137235}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -251,36 +188,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: melee_up_Staff_6
-      rect:
-        serializedVersion: 2
-        x: 248
-        y: 37
-        width: 13
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: cad4a45671513efb0800000000000000
-      internalID: -4619825602524197460
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: melee_up_Staff_7
       rect:
         serializedVersion: 2
-        x: 256
+        x: 248
         y: 26
-        width: 25
-        height: 15
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 33
+        height: 21
+      alignment: 9
+      pivot: {x: 0.94607174, y: 0.08813013}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
