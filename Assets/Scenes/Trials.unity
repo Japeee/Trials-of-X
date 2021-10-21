@@ -2228,6 +2228,8 @@ GameObject:
   - component: {fileID: 858521253}
   - component: {fileID: 858521255}
   - component: {fileID: 858521254}
+  - component: {fileID: 858521257}
+  - component: {fileID: 858521256}
   m_Layer: 0
   m_Name: Walls&Windows2
   m_TagString: Untagged
@@ -3215,6 +3217,61 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!68 &858521256
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 858521252}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: 21.486723, y: 28.840492}
+  - {x: 21.495466, y: 28.46901}
+  - {x: 21.164133, y: 28.004555}
+  - {x: 13.023354, y: 28.020819}
+  - {x: 13.021032, y: 25.997355}
+  - {x: 21.001677, y: 26.007435}
+  - {x: 20.999685, y: 25.011105}
+  - {x: 13.029217, y: 25.015642}
+  m_AdjacentStartPoint: {x: 0, y: 0}
+  m_AdjacentEndPoint: {x: 0, y: 0}
+  m_UseAdjacentStartPoint: 0
+  m_UseAdjacentEndPoint: 0
+--- !u!68 &858521257
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 858521252}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: 30.006266, y: 25.004574}
+  - {x: 21.994888, y: 25.00604}
+  - {x: 21.991499, y: 26.007692}
+  - {x: 29.976347, y: 26.014057}
+  - {x: 29.985422, y: 28.003447}
+  - {x: 21.829073, y: 27.999657}
+  - {x: 21.824612, y: 28.786661}
+  m_AdjacentStartPoint: {x: 0, y: 0}
+  m_AdjacentEndPoint: {x: 0, y: 0}
+  m_UseAdjacentStartPoint: 0
+  m_UseAdjacentEndPoint: 0
 --- !u!1 &895413567
 GameObject:
   m_ObjectHideFlags: 0
@@ -4544,23 +4601,23 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: 15.968542, y: 40.049736}
-      - {x: 26.470816, y: 40.054523}
-      - {x: 26.49333, y: 37.286823}
-      - {x: 37.674484, y: 37.34051}
-      - {x: 37.702137, y: 41.7033}
-      - {x: 33.89152, y: 41.703983}
-      - {x: 33.90837, y: 63.98011}
+    - - {x: 15.968542, y: 40.068424}
+      - {x: 26.45891, y: 40.06643}
+      - {x: 26.461409, y: 37.335373}
+      - {x: 37.68033, y: 37.334667}
+      - {x: 37.680077, y: 41.710636}
+      - {x: 33.897976, y: 41.71254}
+      - {x: 33.90411, y: 63.975845}
       - {x: 22.428717, y: 63.981823}
-      - {x: 22.437271, y: 56.260014}
+      - {x: 22.431368, y: 56.27182}
       - {x: 26.44337, y: 56.271515}
       - {x: 26.441298, y: 52.908836}
-      - {x: 14.044418, y: 52.90454}
-      - {x: 14.03997, y: 47.988976}
+      - {x: 14.033515, y: 52.906174}
+      - {x: 14.031985, y: 47.9992}
       - {x: 5.326862, y: 47.99553}
       - {x: 0.44753468, y: 47.992428}
       - {x: 0.4488624, y: 36.986202}
-      - {x: -0.9969276, y: 36.98966}
+      - {x: -0.9969276, y: 36.985607}
       - {x: -0.98497236, y: 22.013863}
       - {x: 1.0002108, y: 22.022692}
       - {x: 0.99039125, y: 19.892694}
@@ -11688,7 +11745,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1520703720
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21543,7 +21600,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2091684643}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.5, y: -0.9348161, z: -10}
+  m_LocalPosition: {x: 0.5, y: -0.93481445, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
