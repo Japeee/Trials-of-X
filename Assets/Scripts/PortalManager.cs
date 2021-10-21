@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 public class PortalManager : MonoBehaviour
 {
     public GameObject player, portal;
+    public GameObject boundaries;
 
     public void OnTriggerEnter2D(Collider2D other)
     {            
