@@ -3592,7 +3592,7 @@ GameObject:
   - component: {fileID: 1413101787}
   - component: {fileID: 1413101786}
   m_Layer: 0
-  m_Name: Grid
+  m_Name: GridObjective
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -22525,7 +22525,7 @@ GameObject:
   - component: {fileID: 1846521575}
   - component: {fileID: 1846521574}
   m_Layer: 0
-  m_Name: Grid
+  m_Name: GridCellFloor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -22599,7 +22599,7 @@ GameObject:
   - component: {fileID: 1869712863}
   - component: {fileID: 1869712862}
   m_Layer: 0
-  m_Name: Grid
+  m_Name: GridFloor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
