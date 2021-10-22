@@ -3,7 +3,8 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Staff
   layers:
   - Default
   - TransparentFX
@@ -13,10 +14,10 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
-  - 
-  - 
+  - Player
+  - Staff
+  - Enemy
+  - Lights
   - 
   - 
   - 
@@ -40,4 +41,25 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: CellFloor
+    uniqueID: 2567544411
+    locked: 0
+  - name: Walls
+    uniqueID: 2993461217
+    locked: 0
+  - name: Objectives
+    uniqueID: 4238916535
+    locked: 0
+  - name: Player
+    uniqueID: 4082721125
+    locked: 0
+  - name: Staff
+    uniqueID: 1133105875
+    locked: 0
+  - name: Enemy
+    uniqueID: 1830852071
+    locked: 0
+  - name: Floor
+    uniqueID: 1650764361
     locked: 0
