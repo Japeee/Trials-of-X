@@ -9,7 +9,7 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: dogicapixel SDF Material
   m_Shader: {fileID: 4800000, guid: 68e6db2ebdc24f95958faec2be5558d6, type: 3}
-  m_ShaderKeywords: 
+  m_ShaderKeywords: ETC1_EXTERNAL_ALPHA
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -120,8 +120,7 @@ MonoBehaviour:
   materialHashCode: -1396508962
   m_Version: 1.1.0
   m_SourceFontFileGUID: 8772c227d70157d45a53de82db7b3108
-  m_SourceFontFile_EditorRef: {fileID: 12800000, guid: 8772c227d70157d45a53de82db7b3108,
-    type: 3}
+  m_SourceFontFile_EditorRef: {fileID: 12800000, guid: 8772c227d70157d45a53de82db7b3108, type: 3}
   m_SourceFontFile: {fileID: 0}
   m_AtlasPopulationMode: 0
   m_FaceInfo:
@@ -1896,7 +1895,6 @@ MonoBehaviour:
   - {fileID: 7574556519277148759}
   m_AtlasTextureIndex: 0
   m_IsMultiAtlasTexturesEnabled: 0
-  m_ClearDynamicDataOnBuild: 0
   m_UsedGlyphRects:
   - m_X: 0
     m_Y: 0
