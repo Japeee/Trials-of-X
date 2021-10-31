@@ -202,7 +202,7 @@ MonoBehaviour:
   m_Color: {r: 0.9339623, g: 0.45824778, b: 0.13568883, a: 1}
   m_Intensity: 1.34
   m_LightVolumeOpacity: 0.292
-  m_ApplyToSortingLayers: 0381949000000000
+  m_ApplyToSortingLayers: 0000000049aa64625b9e0999e1976cb2b7bba8fc
   m_LightCookieSprite: {fileID: 0}
   m_UseNormalMap: 0
   m_LightOrder: 0
@@ -325,7 +325,7 @@ GameObject:
   - component: {fileID: 42569278}
   - component: {fileID: 42569280}
   - component: {fileID: 42569279}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: CellFloor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5048,7 +5048,7 @@ MonoBehaviour:
   m_Color: {r: 0.9339623, g: 0.45824778, b: 0.13568883, a: 1}
   m_Intensity: 1.34
   m_LightVolumeOpacity: 0.292
-  m_ApplyToSortingLayers: 0381949000000000
+  m_ApplyToSortingLayers: 0000000049aa64625b9e0999e1976cb2b7bba8fc
   m_LightCookieSprite: {fileID: 0}
   m_UseNormalMap: 0
   m_LightOrder: 0
@@ -5288,7 +5288,7 @@ MonoBehaviour:
   m_Color: {r: 0.9339623, g: 0.45824778, b: 0.13568883, a: 1}
   m_Intensity: 1.34
   m_LightVolumeOpacity: 0.292
-  m_ApplyToSortingLayers: 0381949000000000
+  m_ApplyToSortingLayers: 0000000049aa64625b9e0999e1976cb2b7bba8fc
   m_LightCookieSprite: {fileID: 0}
   m_UseNormalMap: 0
   m_LightOrder: 0
@@ -5578,13 +5578,13 @@ GameObject:
   m_Component:
   - component: {fileID: 134012898}
   - component: {fileID: 134012897}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: GridObjective
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!156049354 &134012897
 Grid:
   m_ObjectHideFlags: 0
@@ -5605,7 +5605,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 134012896}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 64.3, y: 27.9, z: 0}
+  m_LocalPosition: {x: 126.6, y: 19.6, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1876584490}
@@ -6270,7 +6270,7 @@ MonoBehaviour:
   m_Color: {r: 0.9339623, g: 0.45824778, b: 0.13568883, a: 1}
   m_Intensity: 1.34
   m_LightVolumeOpacity: 0.292
-  m_ApplyToSortingLayers: 0381949000000000
+  m_ApplyToSortingLayers: 0000000049aa64625b9e0999e1976cb2b7bba8fc
   m_LightCookieSprite: {fileID: 0}
   m_UseNormalMap: 0
   m_LightOrder: 0
@@ -6750,7 +6750,7 @@ MonoBehaviour:
   m_Color: {r: 0.9339623, g: 0.45824778, b: 0.13568883, a: 1}
   m_Intensity: 1.34
   m_LightVolumeOpacity: 0.292
-  m_ApplyToSortingLayers: 0381949000000000
+  m_ApplyToSortingLayers: 0000000049aa64625b9e0999e1976cb2b7bba8fc
   m_LightCookieSprite: {fileID: 0}
   m_UseNormalMap: 0
   m_LightOrder: 0
@@ -7072,7 +7072,7 @@ MonoBehaviour:
   m_Color: {r: 0.9339623, g: 0.45824778, b: 0.13568883, a: 1}
   m_Intensity: 1.34
   m_LightVolumeOpacity: 0.292
-  m_ApplyToSortingLayers: 0381949000000000
+  m_ApplyToSortingLayers: 0000000049aa64625b9e0999e1976cb2b7bba8fc
   m_LightCookieSprite: {fileID: 0}
   m_UseNormalMap: 0
   m_LightOrder: 0
@@ -7144,7 +7144,7 @@ MonoBehaviour:
   m_Color: {r: 0.9339623, g: 0.45824778, b: 0.13568883, a: 1}
   m_Intensity: 1.34
   m_LightVolumeOpacity: 0.292
-  m_ApplyToSortingLayers: 0381949000000000
+  m_ApplyToSortingLayers: 0000000049aa64625b9e0999e1976cb2b7bba8fc
   m_LightCookieSprite: {fileID: 0}
   m_UseNormalMap: 0
   m_LightOrder: 0
@@ -7291,7 +7291,7 @@ MonoBehaviour:
   m_Color: {r: 0.9339623, g: 0.45824778, b: 0.13568883, a: 1}
   m_Intensity: 1.34
   m_LightVolumeOpacity: 0.292
-  m_ApplyToSortingLayers: 0381949000000000
+  m_ApplyToSortingLayers: 0000000049aa64625b9e0999e1976cb2b7bba8fc
   m_LightCookieSprite: {fileID: 0}
   m_UseNormalMap: 0
   m_LightOrder: 0
@@ -10282,7 +10282,7 @@ MonoBehaviour:
   m_Color: {r: 0.9339623, g: 0.45824778, b: 0.13568883, a: 1}
   m_Intensity: 1.34
   m_LightVolumeOpacity: 0.292
-  m_ApplyToSortingLayers: 0381949000000000
+  m_ApplyToSortingLayers: 0000000049aa64625b9e0999e1976cb2b7bba8fc
   m_LightCookieSprite: {fileID: 0}
   m_UseNormalMap: 0
   m_LightOrder: 0
@@ -10320,7 +10320,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &619527614
 Transform:
   m_ObjectHideFlags: 0
@@ -10329,7 +10329,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 619527613}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 60.910137, y: 24.185156, z: 0}
+  m_LocalPosition: {x: 123.21013, y: 15.885157, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1151087321}
@@ -10452,13 +10452,13 @@ GameObject:
   m_Component:
   - component: {fileID: 670296580}
   - component: {fileID: 670296579}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: GridFloor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!156049354 &670296579
 Grid:
   m_ObjectHideFlags: 0
@@ -10479,7 +10479,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 670296578}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 64.3, y: 27.9, z: 0}
+  m_LocalPosition: {x: 126.6, y: 19.6, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1567403402}
@@ -10673,7 +10673,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: b98b13d494f20cf40a1c5d55efb69793, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -10750,13 +10750,13 @@ GameObject:
   m_Component:
   - component: {fileID: 719244591}
   - component: {fileID: 719244590}
-  m_Layer: 11
+  m_Layer: 12
   m_Name: DungeonTilemap
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!156049354 &719244590
 Grid:
   m_ObjectHideFlags: 0
@@ -10777,7 +10777,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 719244589}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 64.3, y: 27.9, z: 0}
+  m_LocalPosition: {x: 126.6, y: 19.6, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 734126991}
@@ -10833,7 +10833,7 @@ MonoBehaviour:
   m_Color: {r: 0.9339623, g: 0.45824778, b: 0.13568883, a: 1}
   m_Intensity: 1.34
   m_LightVolumeOpacity: 0.292
-  m_ApplyToSortingLayers: 0381949000000000
+  m_ApplyToSortingLayers: 0000000049aa64625b9e0999e1976cb2b7bba8fc
   m_LightCookieSprite: {fileID: 0}
   m_UseNormalMap: 0
   m_LightOrder: 0
@@ -10867,7 +10867,7 @@ GameObject:
   - component: {fileID: 734126991}
   - component: {fileID: 734126993}
   - component: {fileID: 734126992}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: WallsLayer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17232,7 +17232,7 @@ MonoBehaviour:
   m_Color: {r: 0.9339623, g: 0.45824778, b: 0.13568883, a: 1}
   m_Intensity: 1.34
   m_LightVolumeOpacity: 0.292
-  m_ApplyToSortingLayers: 0381949000000000
+  m_ApplyToSortingLayers: 0000000049aa64625b9e0999e1976cb2b7bba8fc
   m_LightCookieSprite: {fileID: 0}
   m_UseNormalMap: 0
   m_LightOrder: 0
@@ -21134,7 +21134,7 @@ MonoBehaviour:
   m_Color: {r: 0.9339623, g: 0.45824778, b: 0.13568883, a: 1}
   m_Intensity: 1.34
   m_LightVolumeOpacity: 0.292
-  m_ApplyToSortingLayers: 0381949000000000
+  m_ApplyToSortingLayers: 0000000049aa64625b9e0999e1976cb2b7bba8fc
   m_LightCookieSprite: {fileID: 0}
   m_UseNormalMap: 0
   m_LightOrder: 0
@@ -21172,7 +21172,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1248337108
 Transform:
   m_ObjectHideFlags: 0
@@ -21181,7 +21181,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1248337107}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 66.91579, y: 32.680214, z: 0}
+  m_LocalPosition: {x: 129.21579, y: 24.380215, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 125881943}
@@ -21940,7 +21940,7 @@ MonoBehaviour:
   bulletPrefab: {fileID: 1641616057917916599, guid: 6cc1667dfbbbbfc47adea046d5c24618, type: 3}
   cam: {fileID: 2091684645}
   rbfp: {fileID: 1372710701}
-  bulletForce: 1
+  bulletForce: 5
 --- !u!114 &1289138308
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21969,7 +21969,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   staff: {fileID: 1289138304}
   crystal: {fileID: 166347874}
-  moveSpeed: 2
+  moveSpeed: 2.8
   offset: {fileID: 166347875}
   rb: {fileID: 1289138311}
   updateDir: 1
@@ -22421,7 +22421,7 @@ MonoBehaviour:
   m_Color: {r: 0.9339623, g: 0.45824778, b: 0.13568883, a: 1}
   m_Intensity: 1.34
   m_LightVolumeOpacity: 0.292
-  m_ApplyToSortingLayers: 0381949000000000
+  m_ApplyToSortingLayers: 0000000049aa64625b9e0999e1976cb2b7bba8fc
   m_LightCookieSprite: {fileID: 0}
   m_UseNormalMap: 0
   m_LightOrder: 0
@@ -22627,7 +22627,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1353385138
 Transform:
   m_ObjectHideFlags: 0
@@ -22636,7 +22636,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1353385137}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 52.04495, y: 24.256697, z: -238.42953}
+  m_LocalPosition: {x: 114.34494, y: 15.956697, z: -238.42953}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1855262406}
@@ -22655,13 +22655,13 @@ GameObject:
   m_Component:
   - component: {fileID: 1369825714}
   - component: {fileID: 1369825713}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: GridCellFloor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!156049354 &1369825713
 Grid:
   m_ObjectHideFlags: 0
@@ -22682,7 +22682,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1369825712}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 64.3, y: 27.9, z: 0}
+  m_LocalPosition: {x: 126.6, y: 19.6, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 42569278}
@@ -22706,7 +22706,7 @@ GameObject:
   m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!50 &1372710701
 Rigidbody2D:
   serializedVersion: 4
@@ -22736,7 +22736,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1372710700}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.2, y: -0.5, z: 0}
+  m_LocalPosition: {x: 62.490997, y: -10.5199995, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -23865,7 +23865,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1509441592
 Transform:
   m_ObjectHideFlags: 0
@@ -23874,7 +23874,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1509441591}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 66.91579, y: 32.680214, z: -791.10834}
+  m_LocalPosition: {x: 129.21579, y: 24.380215, z: -791.10834}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 506625985}
@@ -23896,7 +23896,7 @@ GameObject:
   - component: {fileID: 1567403402}
   - component: {fileID: 1567403404}
   - component: {fileID: 1567403403}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: FloorLayer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -42240,7 +42240,7 @@ MonoBehaviour:
   m_Color: {r: 0.9339623, g: 0.45824778, b: 0.13568883, a: 1}
   m_Intensity: 1.34
   m_LightVolumeOpacity: 0.292
-  m_ApplyToSortingLayers: 0381949000000000
+  m_ApplyToSortingLayers: 0000000049aa64625b9e0999e1976cb2b7bba8fc
   m_LightCookieSprite: {fileID: 0}
   m_UseNormalMap: 0
   m_LightOrder: 0
@@ -42387,7 +42387,7 @@ MonoBehaviour:
   m_Color: {r: 0.9339623, g: 0.45824778, b: 0.13568883, a: 1}
   m_Intensity: 1.34
   m_LightVolumeOpacity: 0.292
-  m_ApplyToSortingLayers: 0381949000000000
+  m_ApplyToSortingLayers: 0000000049aa64625b9e0999e1976cb2b7bba8fc
   m_LightCookieSprite: {fileID: 0}
   m_UseNormalMap: 0
   m_LightOrder: 0
@@ -42455,7 +42455,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1712317135
 Transform:
   m_ObjectHideFlags: 0
@@ -42464,7 +42464,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1712317134}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 61.075947, y: 24.467222, z: -299.5899}
+  m_LocalPosition: {x: 123.375946, y: 16.167223, z: -299.5899}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1297663060}
@@ -42652,7 +42652,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1818028847
 Transform:
   m_ObjectHideFlags: 0
@@ -42661,7 +42661,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1818028846}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 60.910137, y: 24.185156, z: 0}
+  m_LocalPosition: {x: 123.21013, y: 15.885157, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 52874040}
@@ -42752,7 +42752,7 @@ GameObject:
   - component: {fileID: 1876584490}
   - component: {fileID: 1876584492}
   - component: {fileID: 1876584491}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: ObjectivesLayer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -44029,7 +44029,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1979645560
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -44052,7 +44052,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1979645559}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 64.3, y: 27.9, z: 0}
+  m_LocalPosition: {x: 126.6, y: 19.6, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -49649,7 +49649,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 3
+  orthographic size: 2
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -49776,7 +49776,7 @@ MonoBehaviour:
   m_Color: {r: 0.9339623, g: 0.45824778, b: 0.13568883, a: 1}
   m_Intensity: 1.34
   m_LightVolumeOpacity: 0.292
-  m_ApplyToSortingLayers: 0381949000000000
+  m_ApplyToSortingLayers: 0000000049aa64625b9e0999e1976cb2b7bba8fc
   m_LightCookieSprite: {fileID: 0}
   m_UseNormalMap: 0
   m_LightOrder: 0

@@ -41,7 +41,7 @@ public class StaffController : MonoBehaviour
 
         if(playerFacing == CardinalDirections.EAST)
         {
-            crystal.transform.position = new Vector3(staff.transform.position.x + 0.59f, staff.transform.position.y - 0.03f, staff.transform.position.z);
+            crystal.transform.position = new Vector3(staff.transform.position.x + 0.2f, staff.transform.position.y - 0.03f, staff.transform.position.z);
         }
         else
         {
