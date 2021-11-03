@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
+	PlayerHealthScript hpScript;
 	public float moveSpeed = 5f;
 	public Rigidbody2D rb;
 	public Animator animator;
@@ -17,7 +18,12 @@ public class PlayerController : MonoBehaviour
 
 	Vector2 movement;
 
-	private void Update()
+
+    private void Start()
+    {
+		hpScript = GetComponent<PlayerHealthScript>();
+    }
+    private void Update()
 	{
 		movement.x = Input.GetAxisRaw("Horizontal");
 		movement.y = Input.GetAxisRaw("Vertical");
@@ -32,6 +38,15 @@ public class PlayerController : MonoBehaviour
 			//movement.y = 0f;
 			canAttack = false;
 			StartCoroutine(waitToAttack());
+		}
+		if(hpScript.currentHealth <= 0)
+        {
+			moveSpeed = 0f;
+			animator.SetTrigger("Death");
+			foreach (Transform child in transform)
+			{
+				Destroy(child.gameObject);
+			}
 		}
 		
 	}
@@ -66,6 +81,13 @@ public class PlayerController : MonoBehaviour
 		}
 			
 		}
+	void OnCollisionEnter2D(Collision2D other)
+	{
+		if (other.collider.gameObject.CompareTag("Enemy"))
+		{
+			hpScript.TakeDamage(5);
+		}
+	}
 	IEnumerator waitToAttack()
     {
 

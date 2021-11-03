@@ -31,6 +31,7 @@ public class StaffController : MonoBehaviour
         updatePlayerDir(movement);
         movement = movement.normalized;
         animator.SetFloat("Speed", movement.sqrMagnitude);
+        
 
         if (Input.GetMouseButtonDown(1) && canAttack == true)
         {

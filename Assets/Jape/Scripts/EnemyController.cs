@@ -25,7 +25,6 @@ public class EnemyController : MonoBehaviour
 
     void Update()
     {
-        Debug.Log(currentHealth);
         if (currentHealth <= 0)
         {
             anim.SetTrigger("Death");
@@ -68,12 +67,7 @@ public class EnemyController : MonoBehaviour
     {
         if (col.collider.gameObject.CompareTag("Staff"))
         {
-            Debug.Log("Took damage");
             currentHealth -= 50;
         }
-    }
-    public void TakeDamage (int dmg)
-    {
-        dmg -= currentHealth;
     }
 }

@@ -7,6 +7,7 @@ public class Shooting : MonoBehaviour
     public Transform firePoint;
     public Transform rotation;
     public GameObject bulletPrefab;
+    private bool canShoot = true;
     Vector2 mousePos;
     public Camera cam;
     public Rigidbody2D rbfp;
@@ -21,19 +22,18 @@ public class Shooting : MonoBehaviour
         float angle = Mathf.Atan2(lookDir.y, lookDir.x) * Mathf.Rad2Deg - 90f;
         rbfp.rotation = angle;
 
-        if (Input.GetButtonDown("Fire1"))
+        if (Input.GetButtonDown("Fire1") && canShoot)
         {
-            Shoot();
+            StartCoroutine(FireRate());
         }
     }
-    private void FixedUpdate()
+    private IEnumerator FireRate()
     {
-
-    }
-    void Shoot()
-    {
-       GameObject bullet = Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
-       Rigidbody2D rb =  bullet.GetComponent<Rigidbody2D>();
-       rb.AddForce(firePoint.up * bulletForce, ForceMode2D.Impulse);
+        canShoot = false;
+        GameObject bullet = Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
+        Rigidbody2D rb = bullet.GetComponent<Rigidbody2D>();
+        rb.AddForce(firePoint.up * bulletForce, ForceMode2D.Impulse);
+        yield return new WaitForSeconds(0.35f);
+        canShoot = true;
     }
 }
