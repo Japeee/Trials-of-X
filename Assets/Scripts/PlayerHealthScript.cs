@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerHealthScript : MonoBehaviour
 {
@@ -28,5 +29,19 @@ public class PlayerHealthScript : MonoBehaviour
     {
         currentHealth -= damage;
         healthBar.SetHealth(currentHealth);
+    }
+
+    public void RestInPeace()
+    {
+        if (currentHealth < 0)
+        {
+            StartCoroutine(venaus());
+        }
+    }
+
+    IEnumerator venaus()
+    {
+        yield return new WaitForSeconds(0.5f);
+        SceneManager.LoadScene("GameOver");
     }
 }
